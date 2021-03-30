@@ -1,2 +1,2 @@
-let userName = prompt("What is your name?");
+let userName = window.prompt("What is your name?");
 console.log(`Hello ${userName}`);
