@@ -1,5 +1,8 @@
-const prompt = require('prompt-sync')();
 
+var prompt = require('prompt');
 
-const userName = prompt("What is your name?");
-console.log(`Hello ${userName}`);
+prompt.start();
+
+prompt.get(['Enter_your_name'], function (err, result) {
+console.log('Hello ' + result.Enter_your_name + '!');
+});
