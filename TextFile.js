@@ -1,4 +1,4 @@
-
+//only writes one line and cannot perform EXIT command
 const fs = require('fs')
 var prompt = require('prompt');
 
