@@ -1,8 +1,8 @@
-let string = "hello"
-console.log(string.length)
-for(val=(str.length -1);val>=1;val--){
-    string+=str[val];
-console.log(val,string)
+function reverse(string){
+let reversed='';
+for(var slice = string.length-1; slice>=0; slice--){
+    reversed += string[slice];
 }
-
-
+console.log(reversed);
+}
+reverse('hello')
